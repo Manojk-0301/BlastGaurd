@@ -1,0 +1,18 @@
+{
+  "name": "blastguard-agent",
+  "version": "1.0.0",
+  "description": "Universal Blast Radius Guard - Change Impact Analysis Agent. Install in any workspace, works with any IDE.",
+  "main": "index.js",
+  "bin": {
+    "blastguard": "./index.js"
+  },
+  "scripts": {
+    "analyze": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": ["blast-radius", "change-impact", "git-diff", "code-analysis", "devops"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
